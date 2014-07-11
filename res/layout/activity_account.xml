@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+    
+    <LinearLayout 
+        android:id="@+id/accountViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/headerHeight" >
+        
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity = "center"
+            android:text="@string/back"
+            android:onClick="goBack" />
+
+        <TextView
+            android:id="@+id/headerTitleView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:text="@string/accountViewTitle"
+            android:gravity = "center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/accountListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/accountViewHeader"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+    </ListView>
+
+</RelativeLayout>
