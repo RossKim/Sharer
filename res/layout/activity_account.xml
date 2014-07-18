@@ -7,13 +7,17 @@
     <LinearLayout 
         android:id="@+id/accountViewHeader"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/headerHeight" >
+        android:layout_height="@dimen/headerHeight"
+        android:background="@layout/styled_header" >
         
         <Button
             android:id="@+id/backButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
+            android:background="@color/transparent"
+            android:textSize="@dimen/headerButtonTextSize"
+            android:textColor="@layout/styled_button_color"
             android:gravity = "center"
             android:text="@string/back"
             android:onClick="goBack" />
@@ -25,6 +29,8 @@
             android:layout_weight="0.8"
             android:text="@string/accountViewTitle"
             android:gravity = "center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/headerTextSize"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <Space
@@ -40,7 +46,8 @@
         android:layout_height="match_parent"
         android:layout_below="@id/accountViewHeader"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true" >
+        android:layout_alignParentLeft="true"
+        android:background="@color/white" >
 
     </ListView>
 

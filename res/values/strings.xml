@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">Sharer</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="messagePlaceHolder">Input messages</string>
     <string name="imageDescription">The image to publish</string>
@@ -13,7 +12,6 @@
     <string name="cameraButtonText">Camera</string>
     <string name="accountViewTitle">Account Setting</string>
     <string name="back">Back</string>
-    <string name="app_id">FacebookAppID(xxxxxxxxxxx)</string>
     <string name="postProgessText">Posting&#8230;</string>
     <string name="accountProgressText">Connecting&#8230;</string>
     <string name="errorTitle">Error</string>
@@ -27,14 +25,6 @@
     <string name="error_unknown">An unknown error occurred, please contact the developer with the following message: %1$s</string>
     <string name="confirmText">Confirm</string>
     <string name="confirm_delete_image_text">Are you sure to deselect this image?</string>
-    <string name="twitter_consumer_key">TwitterConsumerKey(xxxxxxxxxxxx)</string>
-    <string name="twitter_consumer_secret">TwitterConsumerSecret(xxxxxxxxxxxxxxx)</string>
-    <string name="title_activity_twitter_oauth">TwitterOAuthActivity</string>
-    <string name="twitter_callbock_url">rosssharer://twitter</string>
-    <string name="kakao_app_key">KakaoAppKey(xxxxxxxxxxxxx)</string>
-    <string name="kakao_scheme">kakao+KakaoAppKey(kakaoxxxxxxxxxxxxxxx)</string>
-    <string name="kakaostory_host">kakaostory</string>
-    <string name="title_activity_kakao_login">KakaoLoginActivity</string>
     <string name="twitter_connect_error">Cannot connect to twitter.</string>
     <string name="signout_question_text">Sign Out?</string>
     <string name="yes_text">Yes</string>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sharer</string>
+    <string name="action_settings">設定</string>
+    <string name="messagePlaceHolder">テキストを入力してください&#8230;</string>
+    <string name="imageDescription">投稿する画像</string>
+    <string name="postButtonText">送信</string>
+    <string name="settingButtonText">設定</string>
+    <string name="postViewTitle">ポスト</string>
+    <string name="galleryButtonText">アルバム</string>
+    <string name="cameraButtonText">カメラ</string>
+    <string name="accountViewTitle">アカウント</string>
+    <string name="back">戻る</string>
+    <string name="postProgessText">送信中&#8230;</string>
+    <string name="accountProgressText">ログイン中&#8230;</string>
+    <string name="errorTitle">エラー</string>
+    <string name="error_dialog_button_text">確認</string>
+    <string name="error_dialog_default_text">サーバーから反応がありません。</string>
+    <string name="error_authentication_retry">エラーが起こりました。再度試してください。%1$s</string>
+    <string name="error_authentication_reopen">エラーが起こりました。再度ログインしてください。</string>
+    <string name="error_permission">投稿許可をしてください。</string>
+    <string name="error_server">サーバーが忙しいため、再度してみてください。</string>
+    <string name="error_bad_request">エラーが起こりました。開発者に連絡してください: %1$s</string>
+    <string name="error_unknown">エラーが起こりました。開発者に連絡してください: %1$s</string>
+    <string name="confirmText">確認</string>
+    <string name="confirm_delete_image_text">この画像を取り消しますか？</string>
+    <string name="twitter_connect_error">Twitterへログインできません。</string>
+    <string name="signout_question_text">ログアウト?</string>
+    <string name="yes_text">はい</string>
+    <string name="no_text">いいえ</string>
+    <string name="title_facebook_login">Facebook ログイン</string>
+    <string name="success_post_facebook">Facebookへ投稿を成功しました。</string>
+    <string name="success_image_post_facebook">Facebookへ画像投稿を成功しました。</string>
+    <string name="success_post_twitter">Twitterへ投稿を成功しました。</string>
+    <string name="success_image_post_twitter">Twitterへ画像投稿を成功しました。</string>
+    <string name="fail_post_twitter">Twitterへ投稿失敗しました。</string>
+    <string name="fail_image_post_twitter">Twitterへ画像投稿失敗しました。</string>
+    <string name="success_post_kakaostory">KakaoStoryへ投稿を成功しました。</string>
+    <string name="success_image_post_kakaostory">KakaoStoryへ画像投稿を成功しました。</string>
+    <string name="fail_post_kakaostory">KakaoStoryへ投稿失敗しました。</string>
+    <string name="fail_image_post_kakaostory">KakaoStoryへ画像投稿失敗しました。</string>
+    <string name="dialog_title">投稿結果</string>
+    <string name="com_kakao_kakaotalk_account">KakaoTalkでログイン</string>
+    <string name="com_kakao_other_kakaoaccount">他のアカウントでログイン</string>
+    <string name="com_kakao_account_cancel">キャンセル</string>
+</resources>

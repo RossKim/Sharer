@@ -20,6 +20,9 @@
 #}
 
 -keep class com.kakao.** { *; }
--keepattributes Signature
+-keepclassmembers class * {
+  public static <fields>;
+}
+-dontwarn android.support.v4.**,com.ning.http.client.**,org.jboss.netty.**, org.slf4j.**, com.fasterxml.jackson.databind.**, com.google.android.gms.**
 -keep class com.facebook.** { *; }
 -keepattributes Signature

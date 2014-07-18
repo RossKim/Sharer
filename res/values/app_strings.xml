@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">FacebookAppID(xxxxxxxxxxx)</string>
+ 	<string name="twitter_consumer_key">TwitterConsumerKey(xxxxxxxxxxxx)</string>
+    <string name="twitter_consumer_secret">TwitterConsumerSecret(xxxxxxxxxxxxxxx)</string>
+    <string name="title_activity_twitter_oauth">TwitterOAuthActivity</string>
+    <string name="twitter_callbock_url">rosssharer://twitter</string>
+    <string name="kakao_app_key">KakaoAppKey(xxxxxxxxxxxxx)</string>
+    <string name="kakao_scheme">kakao+KakaoAppKey(kakaoxxxxxxxxxxxxxxx)</string>
+    <string name="kakaostory_host">kakaostory</string>
+    <string name="title_activity_kakao_login">KakaoLoginActivity</string>
+</resources>

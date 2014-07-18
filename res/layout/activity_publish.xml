@@ -8,7 +8,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/headerHeight" >
+        android:layout_height="@dimen/headerHeight"
+        android:background="@layout/styled_header" >
 
         <Button
             android:id="@+id/settingButton"
@@ -16,6 +17,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:gravity = "center"
+            android:background="@color/transparent"
+            android:textSize="@dimen/headerButtonTextSize"
+            android:textColor="@layout/styled_button_color"
             android:text="@string/settingButtonText"
             android:onClick="showAccountActivity" />
 
@@ -26,6 +30,8 @@
             android:layout_weight="0.8"
             android:text="@string/postViewTitle"
             android:gravity = "center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/headerTextSize"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <Button
@@ -34,6 +40,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:gravity = "center"
+            android:background="@color/transparent"
+            android:textSize="@dimen/headerButtonTextSize"
+            android:textColor="@layout/styled_button_color"
             android:text="@string/postButtonText"
             android:onClick="postMessage" />
 
@@ -73,6 +82,8 @@
             android:layout_weight="0.2"
             android:gravity = "center"
             android:text="@string/galleryButtonText"
+            android:background="@layout/styled_button"
+            android:textColor="@layout/styled_button_color"
             android:onClick="getImageFromGallery" />
 
         <Space
@@ -87,6 +98,8 @@
             android:layout_weight="0.2"
             android:gravity = "center"
             android:text="@string/cameraButtonText"
+            android:background="@layout/styled_button"
+            android:textColor="@layout/styled_button_color"
             android:onClick="getImageFromCamera" />
 
         <Space

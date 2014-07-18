@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sharer</string>
+    <string name="action_settings">설정</string>
+    <string name="messagePlaceHolder">메세지를 입력해 주세요&#8230;</string>
+    <string name="imageDescription">전송할 이미지</string>
+    <string name="postButtonText">전송</string>
+    <string name="settingButtonText">설정</string>
+    <string name="postViewTitle">포스트</string>
+    <string name="galleryButtonText">앨범</string>
+    <string name="cameraButtonText">카메라</string>
+    <string name="accountViewTitle">계정</string>
+    <string name="back">뒤로</string>
+    <string name="postProgessText">전송중&#8230;</string>
+    <string name="accountProgressText">로그인중&#8230;</string>
+    <string name="errorTitle">에러</string>
+    <string name="error_dialog_button_text">확인</string>
+    <string name="error_dialog_default_text">서버로부터 반응이 없습니다.</string>
+    <string name="error_authentication_retry">에러가 발생했습니다. 재시 하여 주십시오.%1$s</string>
+    <string name="error_authentication_reopen">에러가 발생했습니다. 다시 로그인해 주십시오.</string>
+    <string name="error_permission">전송허가를 해 주십시오.</string>
+    <string name="error_server">서버가 바쁜 관계로, 재시도 하여 주십시오.</string>
+    <string name="error_bad_request">에러가 발생했습니다. 개발자에게 문의하십시오.: %1$s</string>
+    <string name="error_unknown">에러가 발생했습니다. 개발자에게 문의하십시오.: %1$s</string>
+    <string name="confirmText">확인</string>
+    <string name="confirm_delete_image_text">이 이미지를 삭제하시겠습니까?</string>
+    <string name="twitter_connect_error">Twitter에 로그인 실패하였습니다.</string>
+    <string name="signout_question_text">로그아웃?</string>
+    <string name="yes_text">네</string>
+    <string name="no_text">아니오</string>
+    <string name="title_facebook_login">Facebook 로그인</string>
+    <string name="success_post_facebook">Facebook에 메세지를 전송하였습니다.</string>
+    <string name="success_image_post_facebook">Facebook에 이미지를 전송하였습니다.</string>
+    <string name="success_post_twitter">Twitter에 메세지를 전송하였습니다.</string>
+    <string name="success_image_post_twitter">Twitter에 이미지를 전송하였습니다.</string>
+    <string name="fail_post_twitter">Twitter에 전송 실패하였습니다.</string>
+    <string name="fail_image_post_twitter">Twitter에 이미지를 전송 실패하였습니다.</string>
+    <string name="success_post_kakaostory">KakaoStory에 메세지를 전송하였습니다.</string>
+    <string name="success_image_post_kakaostory">KakaoStory에 이미지를 전송하였습니다.</string>
+    <string name="fail_post_kakaostory">KakaoStory에 전송 실패하였습니다.</string>
+    <string name="fail_image_post_kakaostory">KakaoStory에 이미지를 전송 실패하였습니다.</string>
+    <string name="dialog_title">전송 결과</string>
+    <string name="com_kakao_kakaotalk_account">KakaoTalk으로 로그인</string>
+    <string name="com_kakao_other_kakaoaccount">다른 계정으로 로그인</string>
+    <string name="com_kakao_account_cancel">취소</string>
+</resources>
