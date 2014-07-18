@@ -11,7 +11,9 @@ If you want to build, you need next libraries.
 <li>google-play-services-lib</li>
 <li>Kakao android sdk
 </ul>
-Also, you need to change the app keys of facebook or twitter or kakaostory on strings.xml.
+Also, you need to registor on facebook developer, twitter developer, kakao developer.
+And, you need to register hash key to developer sites.
+After that, you must change the app keys of facebook or twitter or kakaostory on values/app_strings.xml.
 <ul>
 <li>app_id : facebook app id</li>
 <li>twitter_consumer_key : Twitter Consumer Key</li>
