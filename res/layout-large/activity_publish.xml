@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ross.kbs.sharer.PublishActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/headerHeight"
+        android:background="@layout/styled_header" >
+
+        <Button
+            android:id="@+id/settingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity = "center"
+            android:background="@color/transparent"
+            android:textSize="@dimen/headerButtonTextSize"
+            android:textColor="@layout/styled_button_color"
+            android:text="@string/settingButtonText"
+            android:onClick="showAccountActivity" />
+
+        <TextView
+            android:id="@+id/headerTitleView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:text="@string/postViewTitle"
+            android:gravity = "center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/headerTextSize"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/postButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity = "center"
+            android:background="@color/transparent"
+            android:textSize="@dimen/headerButtonTextSize"
+            android:textColor="@layout/styled_button_color"
+            android:text="@string/postButtonText"
+            android:onClick="postMessage" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/messageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:ems="10"
+        android:hint="@string/messagePlaceHolder"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:contentDescription="@string/imageDescription"
+        android:onClick="deleteImage" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footerHeight" >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:id="@+id/galleryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity = "center"
+            android:text="@string/galleryButtonText"
+            android:background="@layout/styled_button"
+            android:textColor="@layout/styled_button_color"
+            android:onClick="getImageFromGallery" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:id="@+id/cameraButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity = "center"
+            android:text="@string/cameraButtonText"
+            android:background="@layout/styled_button"
+            android:textColor="@layout/styled_button_color"
+            android:onClick="getImageFromCamera" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -21,3 +21,4 @@ After that, you must change the app keys of facebook or twitter or kakaostory on
 <li>kakao_app_key : Kakao App Key</li>
 <li>kakao_scheme : kakao+Kakao App Key (ex : kakao11111111111)</li>
 </ul>
+
