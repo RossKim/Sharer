@@ -55,6 +55,10 @@ public class PublishActivity extends Activity implements LocationListener {
 		com.kakao.Session.initializeSession(this, KakaoUtil.sessionCallback);
 		if (savedInstanceState != null) {
 			setImageViewFromFile();
+		} else {
+			if (PhotoUtil.isExistImageFile(this)) {
+				PhotoUtil.deleteImageFile(this);
+			}
 		}
 	}
 
