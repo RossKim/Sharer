@@ -22,3 +22,7 @@ After that, you must change the app keys of facebook or twitter or kakaostory on
 <li>kakao_scheme : kakao+Kakao App Key (ex : kakao11111111111)</li>
 </ul>
 
+<ul>
+<li>iOS : https://itunes.apple.com/us/app/sharer/id896451929?l=ko&ls=1&mt=8</li>
+<li>Android : https://play.google.com/store/apps/details?id=com.ross.kbs.sharer</li>
+</ul>
